@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+    <!-- 인터넷 연결 권한 설정 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TabPagerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Contacts_2" />
+        <activity android:name=".Contacts"></activity>
+        <activity android:name=".AddViewActivity">
+        </activity>
+        <activity android:name=".Library" />
+        <activity android:name=".Context" />
+        <activity android:name=".NullSafty" />
+        <!--<activity android:name=".FragmentActivity" />-->
+        <activity android:name=".URL_Test" />
+        <activity android:name=".Intent2" />
+        <activity android:name=".Intent1" />
+        <activity android:name=".Calculating_machine_" />
+        <activity android:name=".Listnener" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
